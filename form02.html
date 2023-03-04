@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="">
+
+        <fieldset>
+            <legend>수강 신청인</legend>
+            <ul>
+                <li>
+                    <label for ="schoolNumber">학번</label>
+                    <input type="number" id="schoolNumber">
+                </li>
+                <li>
+                    <label for ="name">이름</label>
+                    <input type="email" id="userName">
+                </li>
+                <li>
+                    <label for ="userEmail">이메일</label>
+                    <select name="" id="userEmail">
+                        <option value="naver">네이버</option>
+                        <option value="daum">다음</option>
+                        <option value="google">구글</option>
+                </li>
+                </ul>
+        </fieldset>
+        <fieldset>
+                <legend>수강 과목</legend>
+                <ul>
+                <li>
+                    <label for ="subject">과목선태</label>
+                    <select name="" id="subject">
+                        <option value="korean" selected>국어</option>
+                        <option value="english">영어</option>
+                        <option value="math">수학</option>
+                </li>
+                <li>
+                    <label><input type="radio" name="subject2"><span>영어</span></label>
+                    <label><input type="radio" name="subject2"><span>수학</span></label>
+                    <label><input type="radio" name="subject2"><span>과학</span></label>
+                </li>
+                <li>
+                <label><input type="checkbox" checked><span>영화</span></label>
+                <label><input type="checkbox" ><span>음악</span></label>
+                <label><input type="checkbox" ><span>독서</span></label>
+                </li>
+                <li><textarea name="" id="" cols="30" rows="10"></textarea></li>
+            </ul>
+        </fieldset>
+        <div>
+            <input type="submit" value="확인">
+            <input type="reset" value="다시작성">
+        </div>
+    </form>
+</body>
+</html>
